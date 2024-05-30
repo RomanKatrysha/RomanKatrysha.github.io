@@ -1,0 +1,36 @@
+body{
+    background: #9fa5d9;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+#field{
+    width: 640px;
+    height: 640px;
+    border: 1px solid black;
+}
+.chess-block {
+    width: 80px;
+    height: 80px;
+    float: left;
+
+}
+.bg-black{
+    background: #716a6a;
+}
+.bg-white{
+    background: white;
+}
+.blackFigure{
+    background-image: url(../img/blackFigure.png);
+    background-size: 80px 80px;
+}
+.whiteFigure{
+    background-image: url(../img/whiteFigure.png);
+    background-size: 80px 80px;
+}
+.target{
+    background-color: blue;
+}
+.possible-moves{
+    background-color: #795da7;
+}
